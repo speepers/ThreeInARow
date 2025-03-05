@@ -123,7 +123,7 @@
 
     const gridContainer = document.querySelector(".container");
     
-    fetch("https://prog2700.onrender.com/threeinarow/sample")
+    fetch("https://prog2700.onrender.com/threeinarow/6x6")
         .then(response => response.json())
         .then(json => {
             window.totalLength = json.rows.length ** 2;
